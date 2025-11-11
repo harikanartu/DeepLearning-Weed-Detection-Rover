@@ -36,11 +36,6 @@ Published in IEEE Xplore, 2024.
 
 ---
 
-## 📊 Results
-| Image | Detection Output |
-|--------|------------------|
-| ![Output1](images/output1.jpg) |
-
 
 pip install -r requirements.txt
 python detect.py --source datasets/sample_images/
