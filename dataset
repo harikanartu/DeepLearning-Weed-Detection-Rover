@@ -1,0 +1,10 @@
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="cTo3NAru0gydx39QbYct")
+project = rf.workspace("vitif246x").project("weed-oqamx")
+version = project.version(1)
+dataset = version.download("yolov8-obb")
+
+
+  this dataset was trained and annotated using roboflow
